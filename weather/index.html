@@ -1,8 +1,12 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 
 <html>
 
     <head>
+        <meta charset="UTF-8">
+        <meta name="valueport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-ua-Compatible" content="ie-edge">
+        <title>Weather app</title>
         <link rel="stylesheet" href="style.css" >
     </head>
 
@@ -12,22 +16,22 @@
             <input type="text" placeholder="City name or Zip code" id="searchInput">
             <button class="searchControl" id="searchBtn">search</button>
         </div>
-        
+
         <div id="weatherContainer">
             <div id="weatherDescription">
                 <h1 id="cityHeader"></h1>
                 <div id="weatherMain">
                     <div id="weatherDescriptionHeader"></div>
                     <div id="temperature"></div>
-                    <div><img id="documentIconimg" /></div>
+                    <div><img id="documentIconImg" /></div>
                 </div>
+                <hr>
                 <div id="windSpeed" class="bottomDetails"></div>
                 <div id="humidity" class="bottomDetails"></div>
             </div>
         </div>
-        
         <script src="script.js"></script>
     </body>
 
 
-</html>
+</html> 
